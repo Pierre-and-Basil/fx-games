@@ -10,16 +10,19 @@ for (let index = 0; index < array.length; index++) {
 			sessionStorage.removeItem('Log');
 	
 }		window.location.href = 'login.html';
-	}else if(email == 'pierre-admin@gmail.com' && password == '123'){
+	}else if(email == 'pierre-3mk' && password == 'pierre'){
 		sessionStorage.removeItem('Log');
 		alert("Welcome !!")
 		window.location.href = 'login.html';
-	}else if(email == 'basil-admin@gmail.com' && password == '123'){
+	}else if(email == 'basil-admin' && password == 'basil'){
 		sessionStorage.removeItem('Log');
 		alert("Welcome !!")
 		window.location.href = 'login.html';
-	}
-	else{
+	}else if(email == 'steven-123' && password == '123'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
+	}else{
 		$("#error").html('<div class="alert alert-danger" role="alert">Wrong Username Or Password !</div>');
 		alert("Wrong Username Or Password !")
 	}
