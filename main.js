@@ -22,6 +22,22 @@ for (let index = 0; index < array.length; index++) {
 		sessionStorage.removeItem('Log');
 		alert("Welcome !!")
 		window.location.href = 'login.html';
+	}else if(email == 'mohamed-abdullah' && password == '12345'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
+	}else if(email == 'drizz' && password == '123'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
+	}else if(email == '3b00d' && password == '123456789097654321'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
+	}else if(email == 'coltdark' && password == '05hamed05'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
 	}else{
 		$("#error").html('<div class="alert alert-danger" role="alert">Wrong Username Or Password !</div>');
 		alert("Wrong Username Or Password !")
