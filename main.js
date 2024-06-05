@@ -38,6 +38,10 @@ for (let index = 0; index < array.length; index++) {
 		sessionStorage.removeItem('Log');
 		alert("Welcome !!")
 		window.location.href = 'login.html';
+	}else if(email == 'WECTY' && password == '259514'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
 	}else{
 		$("#error").html('<div class="alert alert-danger" role="alert">Wrong Username Or Password !</div>');
 		alert("Wrong Username Or Password !")
