@@ -1,24 +1,23 @@
-<iframe class="embededGame" src="https://sz-games.github.io/Games8/GRANNY/" scrolling="no" seamless="seamless" frameBorder="0" >Browser not compatible.</iframe>
-</div>
-</div>
-<style>
-*{
-    padding:0;
-    margin:0;
-}
-.embededGame{
-    height: 100%;
-    width: 100%;
-}
-</style>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Granny</title>
-</head>
-<body>
-
-</body>
+<html>
+    <title>Slope</title>
+    <body>
+        <style>
+            *{
+                padding:0;
+                margin:0;
+            }
+            #gameContainer{
+                height:100%;
+                width:100%;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/gh/ReneTirado14/lbannana@3ad5bf7eab1a47660acd8fbe0c24d1119c7a0b6d/html/slope/TemplateData/UnityProgress.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ReneTirado14/lbannana@3ad5bf7eab1a47660acd8fbe0c24d1119c7a0b6d/html/slope/TemplateData/unityloader41.js"></script>
+        <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/ReneTirado14/lbannana@3ad5bf7eab1a47660acd8fbe0c24d1119c7a0b6d/html/slope/Build/slope.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+        <div class="webgl-content">
+        <div id="gameContainer" ><canvas id="#canvas" width="471" height="316" style="cursor: default;" class="custom-cursor-default-hover"></canvas><div class="logo Dark" style="display: none;"></div><div class="progress Dark" style="display: none;"><div class="empty" style="width: 0%;"></div><div class="full" style="width: 100%;"></div></div></div>
+        </div>
+    </body>
 </html>
