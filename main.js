@@ -53,6 +53,10 @@ function auth() {
 		sessionStorage.removeItem('Log');
 		alert("Hi User (Taim Mahmoud)")
 		window.location.href = 'login.html';
+        }else if(email == 'mohammed-3mk' && password == '3mk'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Mohammed Sultan)")
+		window.location.href = 'login.html';
         }else {
         document.getElementById("error").innerHTML = '<div class="alert alert-danger" role="alert">Wrong Username Or Password!</div>';
         alert("Wrong Username Or Password!");
