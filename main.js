@@ -4,11 +4,11 @@ function auth() {
 
     if (email === 'ez' && password === 'pz') {
         sessionStorage.setItem('Log', 'authenticated');
-        window.location.href = 'game.html';
+        window.location.href = 'login.html';
     }else if ((email === 'pierre-admin@gmail.com' && password === '123') || (email === 'basil-admin@gmail.com' && password === '123')) {
         sessionStorage.setItem('Log', 'authenticated');
         alert("Hi Admin (Pierre Sameh)");
-        window.location.href = 'game.html';
+        window.location.href = 'login.html';
     }else if(email == 'pierre-3mk' && password == 'pierre'){
 		sessionStorage.removeItem('Log');
 		alert("Hi Admin (Pierre Sameh)");
