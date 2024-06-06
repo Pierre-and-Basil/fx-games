@@ -670,6 +670,11 @@ nav {
 </head>
 <button id="logout" style="max-width:7%;" type="button" onclick="sessionStorage.setItem('Log','not'); window.location.href='index.html';" >Logout</button>
 <body>
+   <script>
+    if(sessionStorage.getItem('Log') == 'not'){
+        window.location.href = '../index.html';
+    }
+</script>
     <nav>
       <ul>
           <li class="logo">
@@ -1022,12 +1027,6 @@ margin-left: 160px;
 }
 
 </style>
-
-<script>
-    if(sessionStorage.getItem('Log') == 'not'){
-        window.location.href = '../index.html';
-    }
-</script>
 
 <div class="container-row">
 
