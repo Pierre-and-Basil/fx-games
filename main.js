@@ -41,7 +41,23 @@ function auth() {
 		sessionStorage.removeItem('Log');
 		alert("Hi User (Omar Elasyed)")
 		window.location.href = 'login.html';
-	}else {
+	}else if(email == 'yousef' && password == 'pierre'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Yousef Gihad)")
+		window.location.href = 'login.html';
+	}else if(email == 'karam' && password == 'elsysy'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Karam Ayman)")
+		window.location.href = 'login.html';
+	}else if(email == 'taim-3mk' && password == '3mk'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Taim Mahmoud)")
+		window.location.href = 'login.html';
+	}else if(email == 'mohammed-3mk' && password == '3mk'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Moahmmed Sultan)")
+		window.location.href = 'login.html';
+	}else{
         document.getElementById("error").innerHTML = '<div class="alert alert-danger" role="alert">Wrong Username Or Password!</div>';
         alert("Wrong Username Or Password!");
     }
