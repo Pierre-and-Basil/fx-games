@@ -1,5 +1,10 @@
   
-    <iframe class="embededGame" src="https://sz-games.github.io/Games10/geodash" scrolling="no" seamless="seamless" frameBorder="0" >Browser not compatible.</iframe>
+<script>
+        if(sessionStorage.getItem('Log') == 'not'){
+            window.location.href = '../index.html';
+        }
+    </script>    
+<iframe class="embededGame" src="https://sz-games.github.io/Games10/geodash" scrolling="no" seamless="seamless" frameBorder="0" >Browser not compatible.</iframe>
 <style>
     *{
         padding:0;
@@ -18,10 +23,6 @@
     <title>Geometry Dash</title>
 </head>
 <body>
-    <script>
-        if(sessionStorage.getItem('Log') == 'not'){
-            window.location.href = '../index.html';
-        }
-    </script>
+    
 </body>
 </html>  
