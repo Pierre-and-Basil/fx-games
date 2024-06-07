@@ -21,9 +21,13 @@ function auth() {
 		sessionStorage.removeItem('Log');
 		alert("Hi User (Steven Sameh)");
 		window.location.href = 'login.html';
-	}else if(email == 'mohamed-abdullah' && password == '12345'){
+	}else if(email == 'abdullah-mohamed' && password == '12345'){
 		sessionStorage.removeItem('Log');
-		alert("Hi User (Mohammed Abdullah)");
+		alert("Hi User (Abdullah Mohamed)");
+		window.location.href = 'login.html';
+	}else if(email == 'abdullah-mohazk' && password == 'a7a'){
+		sessionStorage.removeItem('Log');
+		alert("Hi User (Abdullah Abo A7a)");
 		window.location.href = 'login.html';
 	}else if(email == 'drizz' && password == '123'){
 		sessionStorage.removeItem('Log');
